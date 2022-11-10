@@ -1,0 +1,186 @@
+/*Roboto Condensed*/
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Italic.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-BoldItalic.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Light.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+        url('fonts/RobotoCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** **/
+body {
+    background: #ffffff;
+    color: #474747;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d74061;
+    margin: 0 0 25px;
+}
+h1, .h1{
+    font-size:48px;
+}
+h2, .h2{
+    font-size:30px;
+}
+h3, .h3{
+    font-size:24px;
+}
+h4, .h4{
+    font-size:20px;
+}
+h5, .h5{
+    font-size:18px;
+}
+h6, .h6{
+    font-size:14px;
+}
+
+
+table {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+table tbody {
+    display: block;
+    width: 100%;
+}
+table tr {
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+
+table tr td {
+    box-sizing: border-box;
+    padding: 10px;
+    
+    vertical-align: top;
+}
+
+
+ul.nav li {
+    display: inline-block;
+    float: left;
+}
+ul.nav li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 6px double transparent;
+}
+
+table tbody {
+    display: block;
+    width: 100%;
+}
+
+a.logo {
+    font-size: 40px;
+    text-decoration: none;
+    color: #d74061;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 6px double #d74061;
+    display: table;
+    margin: 0 auto;
+    padding: 15px;
+    float: left;
+}
+
+a.logo .sous-logo {
+    color: #000000;
+}
+
+ul.nav {
+    display: table;
+    width: 100%;
+    float: right;
+}
+
+ul.nav li a:hover {
+    border-color: #d74061;
+}
+
+td.content {
+    padding: 50px 10px;
+}
+.news {
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgb(0,0,0,.5);
+    padding: 15px;
+}
+
+.news img.img-news {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+}
+
+.adr {
+    background: url(images/map.png) no-repeat left center;
+    padding: 2px 0 2px 30px;
+}
+.networks {
+    float: right;
+}
+.networks a:hover {
+    opacity: .8;
+}
+
+.networks a {
+    text-decoration: none;
+}
